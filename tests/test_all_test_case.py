@@ -60,7 +60,7 @@ class TestEndToEndFlow:
         time.sleep(5)
         print(f"Successfully navigated to checkout page")
         # Completing Checkout process
-        checkout_page.checkout_process("High street", "OldYork", "52345-6789", "273582758")
+        checkout_page.checkout_process("High street rd", "Oldtown", "52345-6789", "273582758")
         time.sleep(2)
         print(f"Successfully completed filling out the checkout form and Navigated to Payments page")
         shared_data['api_url'] = self.driver.current_url

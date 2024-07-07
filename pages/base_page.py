@@ -35,10 +35,6 @@ class BasePage:
         wait = WebDriverWait(self._driver, time)
         wait.until(ec.visibility_of_element_located(locator))
 
-    def _wait_until_element_is_clickable(self, locator: tuple, time: int = 10):
-        wait = WebDriverWait(self._driver, time)
-        wait.until(ec.element_to_be_clickable(locator))
-
     @property
     def current_url(self) -> str:
         return self._driver.current_url

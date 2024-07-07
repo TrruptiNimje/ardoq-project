@@ -63,7 +63,6 @@ class CheckoutPage(BasePage):
         super()._click(self.__next_btn)
         time.sleep(5)
         super()._is_displayed(self.__payment_order_summary)
-        super()._wait_until_element_is_clickable(self.__place_order_btn)
         super()._click(self.__place_order_btn)
         time.sleep(10)
         super()._wait_until_element_is_visible(self.__order_confirmation)

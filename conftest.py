@@ -24,8 +24,8 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="session")
 def user_credentials():
     return {
-        "first_name": "sten",
-        "last_name": "Roger",
-        "email": "stenroger@mail.com",
+        "first_name": "Tony",
+        "last_name": "Stark",
+        "email": "tonystark@mail.com",
         "password": "Qwer@1234"
     }

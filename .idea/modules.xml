@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ArdoqTestProject.iml" filepath="$PROJECT_DIR$/.idea/ArdoqTestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MagentoTestAutomationProject.iml" filepath="$PROJECT_DIR$/.idea/MagentoTestAutomationProject.iml" />
     </modules>
   </component>
 </project>
